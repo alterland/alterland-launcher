@@ -16,7 +16,6 @@ kotlin {
                 implementation(project(":common:core"))
                 implementation(project(":common:core:compose"))
                 implementation(project(":common:core:utils"))
-                implementation(project(":common:auth:compose"))
                 implementation(project(":common:root:core"))
                 implementation(project(":common:root:compose"))
             }
