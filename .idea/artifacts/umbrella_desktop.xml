@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="umbrella-desktop">
+    <output-path>$PROJECT_DIR$/common/umbrella/build/libs</output-path>
+    <root id="archive" name="umbrella-desktop.jar">
+      <element id="module-output" name="AlterlandLauncher.common.umbrella.desktopMain" />
+    </root>
+  </artifact>
+</component>

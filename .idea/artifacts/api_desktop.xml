@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="api-desktop">
+    <output-path>$PROJECT_DIR$/common/dashboard/api/build/libs</output-path>
+    <root id="archive" name="api-desktop.jar">
+      <element id="module-output" name="AlterlandLauncher.common.dashboard.api.desktopMain" />
+    </root>
+  </artifact>
+</component>

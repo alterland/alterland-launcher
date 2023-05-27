@@ -1,0 +1,3 @@
+package screen_model
+
+interface UiEffect

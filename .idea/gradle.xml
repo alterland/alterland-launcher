@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/buildSrc" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/buildSrc/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/buildSrc/buildSrc" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/buildSrc/buildSrc" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/auth" />
+            <option value="$PROJECT_DIR$/common/auth/api" />
+            <option value="$PROJECT_DIR$/common/auth/compose" />
+            <option value="$PROJECT_DIR$/common/auth/data" />
+            <option value="$PROJECT_DIR$/common/auth/presentation" />
+            <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/core/compose" />
+            <option value="$PROJECT_DIR$/common/core/utils" />
+            <option value="$PROJECT_DIR$/common/dashboard" />
+            <option value="$PROJECT_DIR$/common/dashboard/api" />
+            <option value="$PROJECT_DIR$/common/dashboard/compose" />
+            <option value="$PROJECT_DIR$/common/dashboard/data" />
+            <option value="$PROJECT_DIR$/common/dashboard/presentation" />
+            <option value="$PROJECT_DIR$/common/root" />
+            <option value="$PROJECT_DIR$/common/root/compose" />
+            <option value="$PROJECT_DIR$/common/root/core" />
+            <option value="$PROJECT_DIR$/desktop" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb1f0edd-896c-40ba-80e0-82c0aefbe127" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AlterlandLauncher_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/api_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/auth_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/compose_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/core_compose_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/core_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/core_utils_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dashboard_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/desktop_jvm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/impl_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/presentation_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/root_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/umbrella_compose_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/umbrella_core_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/umbrella_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/utils_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/buildSrc/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/buildSrc/src/main/kotlin/Dependencies.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/multiplatform-compose-setup.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/multiplatform-setup.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/model/request/ResetPasswordRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/model/request/SignInRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/model/request/SignUpRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/model/response/CheckNicknameResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/model/response/GetUserResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/api/src/commonMain/kotlin/repository/UserRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/AuthModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/container/AuthContainer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/container/AuthContainerScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/recovery/Recovery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/recovery/RecoveryScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/sign_in/SignIn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/sign_in/SignInScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/sign_up/SignUp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/sign_up/SignUpScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/avatar_rofl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/avatar_temp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/background_auth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/background_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/background_main_blurred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/client_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/logo_divider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/logo_house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/logo_name.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/drawable/role-play-bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/launcher_icons/macos.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_reset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/icons/ic_vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/compose/src/commonMain/resources/vector/rp_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/data/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/data/src/commonMain/kotlin/api/IdentityApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/data/src/commonMain/kotlin/di/AuthDataModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/data/src/commonMain/kotlin/repository/UserRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/container/AuthContainerContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/container/AuthContainerScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/di/AuthPresentationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/recovery/RecoveryContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/recovery/RecoveryScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/sign_in/SignInContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/sign_in/SignInScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/sign_up/SignUpContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/presentation/src/commonMain/kotlin/sign_up/SignUpScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/auth/src/commonMain/kotlin/di/AuthModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/theme/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/AppleCircularProgressIndicator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/AuthOptionButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/Button.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/CheckBox.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/Input.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/LoadableItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/Logo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/MultilineTextBackground.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/SocialButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/VideoPlayer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/loadables/LoadableImage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/kotlin/widgets/loadables/LoadableText.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_checkbox_check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_cloud_ok.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_dont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_eye_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_eye_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_minimize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_server_status.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/compose/src/commonMain/resources/vector/icons/ic_settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/CoreModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/PlatformConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/di/Inject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/json/SerializationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/ktor/HttpClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/ktor/HttpEngineFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/ktor/KtorModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/local/CustomCookiesStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/local/LocalModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/local/persistent/PersistentStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/local/persistent/structure/Persistent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/commonMain/kotlin/local/persistent/structure/PersistentCookie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/desktopMain/kotlin/PlatformConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/desktopMain/kotlin/ktor/HttpEngineFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/base/Lce.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/extentions/CoroutineScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/extentions/Flow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/hash/HashUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/hash/MessageDigestAlgorithm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/hash/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/navigation/RootScreenProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/screen_model/BaseScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/screen_model/UiEffect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/screen_model/UiEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/screen_model/UiState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/api/src/commonMain/kotlin/model/DownloadMetrics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/api/src/commonMain/kotlin/model/request/ClientFilesSchemaRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/api/src/commonMain/kotlin/model/response/ClientFilesResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/api/src/commonMain/kotlin/repository/ClientRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/DashboardModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client/Client.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client/ClientUpToDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client/ClientUpdate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client_info/ClientInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client_info/ClientInfoScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/client_info/ClientInfoViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/container/Dashboard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/container/DashboardScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/container/miniprofile/MiniProfile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/menu/clients/MenuClientItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/menu/clients/MenuClientsList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens/menu/clients/ServerStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/data/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/data/src/commonMain/kotlin/api/ClientApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/data/src/commonMain/kotlin/di/DashboardDataModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/data/src/commonMain/kotlin/repository/ClientRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/client_info/ClientInfoContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/client_info/ClientInfoScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/container/DashboardContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/container/DashboardScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/di/DashboardPresentationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/model/ClientItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/model/ClientStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/presentation/src/commonMain/kotlin/model/ClientUpdateMetrics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dashboard/src/commonMain/kotlin/DashboardModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/compose/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/compose/src/commonMain/kotlin/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/compose/src/commonMain/kotlin/navigation/RootScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/compose/src/commonMain/kotlin/navigation/RootScreenModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/core/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/core/src/commonMain/kotlin/PlatformSDK.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/presentation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/presentation/src/commonMain/kotlin/RootModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/presentation/src/commonMain/kotlin/navigation/RootScreenContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/root/presentation/src/commonMain/kotlin/navigation/RootScreenModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/main.desktop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/desktop">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlterlandLauncher" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlterlandLauncher" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlterlandLauncher" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-desktop/1.4.0/43b95c882590516547c19317d5df3e2c19c57ad8/foundation-desktop-1.4.0-sources.jar!/commonMain/androidx/compose/foundation/text/BasicTextField.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PhpXqsJ02WBkVm7xlvT0jyvjSa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "azul-17",
+    "last_opened_file_path": "/Users/aviator737/Documents/GitHub/AlterlandLauncher/common/root/compose/src/commonMain/kotlin/navigation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/root/compose/src/commonMain/kotlin/navigation" />
+      <recent name="$PROJECT_DIR$/common/core/utils/src/commonMain/kotlin/hash" />
+      <recent name="$PROJECT_DIR$/common/dashboard/compose/src/commonMain/kotlin/ui/screens" />
+      <recent name="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin" />
+      <recent name="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens/container" />
+      <recent name="$PROJECT_DIR$/common/auth/compose/src/commonMain/kotlin/ui/screens" />
+      <recent name="$PROJECT_DIR$/common/core/src/commonMain/kotlin" />
+      <recent name="$PROJECT_DIR$/common" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="navigation" />
+      <recent name="repository" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AlterlandLauncher [run]">
+    <configuration name="AlterlandLauncher [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlterlandLauncher [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlterlandLauncher:desktop [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desktop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_desktopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main_desktopKt" />
+      <module name="AlterlandLauncher.desktop.jvmMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AlterlandLauncher [run]" />
+        <item itemvalue="Gradle.AlterlandLauncher [clean]" />
+        <item itemvalue="Gradle.AlterlandLauncher:desktop [run]" />
+        <item itemvalue="Kotlin.Main_desktopKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb1f0edd-896c-40ba-80e0-82c0aefbe127" name="Changes" comment="" />
+      <created>1683919210895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683919210895</updated>
+    </task>
+    <servers />
+  </component>
+</project>
